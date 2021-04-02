@@ -1,0 +1,104 @@
+* {
+  color: yellow;
+  box-sizing: border-box;
+  /* border-style: solid; */
+}
+
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  /* display: flex; */
+  /* direction: column; */
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  /* width: 1200px; */
+
+}
+
+.logo_container {
+  flex-basis: 60%;
+  padding: .1rem;
+}
+
+.logo_container img {
+  width: 145px;
+  height: 107px;
+}
+
+.navigation {
+  flex-basis: 30%;
+  display: flex;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  flex: 1;
+  padding-left: 0.2rem;
+  text-decoration: none;
+}
+
+.ticket {
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.ticket button {
+  color: black;
+  padding: 3px;
+  width: 120px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:0 60px;
+}
+
+.gallery{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+  flex-wrap: wrap;
+
+}
+
+.eventImage{
+  width: 350px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.artistImage{
+  width: 120px;;
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100%;
+  position :relative;
+  bottom: 10%;
+}
+
+.eventShortDescription{
+width: 350px;
+position: relative;
+bottom: 5%;
+}
+
+.galleryToolbar{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.galleryToolbar img{
+  margin: 5px;
+}
